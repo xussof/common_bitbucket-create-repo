@@ -1,0 +1,2 @@
+- include_tasks: loop.yml
+  with_dict: "{{ bitbucket_create_repo }}"

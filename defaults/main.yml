@@ -1,0 +1,7 @@
+#bitbucket_create_repo:
+#  1:
+#    repo_name: repo4
+#    workspace: arsolute
+#    project: MONO
+#    is_private: true
+#    scm: git

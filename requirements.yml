@@ -1,0 +1,8 @@
+---
+- src: https://github.com/xussof/common_set-vars-all
+  scm: git
+  version: master
+  name: xussof.common_set-vars-all
+
+
+#Necesita pip install docker
