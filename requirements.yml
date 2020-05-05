@@ -1,5 +1,5 @@
 ---
-- src: https://github.com/xussof/common_set-vars-all
+- src: git@github.com:xussof/common_set-vars-all
   scm: git
   version: master
   name: xussof.common_set-vars-all
