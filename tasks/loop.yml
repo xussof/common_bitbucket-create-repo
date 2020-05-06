@@ -1,6 +1,6 @@
 - name: "creating repo"
   block:
-    - name: "Creating repo on bitbucket for repo4"
+    - name: "Creating repo on bitbucket for {{ item.value.repo_name }}"
       uri:
 #        url: "{{ bitbucket_api_url }}/2.0/repositories/{{ bitbucket_odigeoteam }}/{{ app_name }}-infra"
         url: "{{ bitbucket_api_url }}/2.0/repositories/{{ item.value.workspace }}/{{ item.value.repo_name }}"
