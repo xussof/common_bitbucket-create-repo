@@ -1,8 +1,8 @@
-common_create-user
+common_bitbucket-create-repo
 =========
 
-This role will create a user on selected machine.
-Can be root or not
+This role will create a repo on bitbucket.
+This will also need a set-vars-all of the project you will work on.
 
 Requirements
 ------------
