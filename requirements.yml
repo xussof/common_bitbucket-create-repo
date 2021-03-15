@@ -1,8 +1,8 @@
 ---
-#- src: git@github.com:xussof/common_set-vars-all
-#  scm: git
-#  version: master
-#  name: xussof.common_set-vars-all
+- src: git@github.com:xussof/common_bitbucket-create-repo
+  scm: git
+  version: master
+  name: common_bitbucket-create-repo
 
 
 #Necesita pip install docker

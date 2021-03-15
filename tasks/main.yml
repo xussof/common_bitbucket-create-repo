@@ -1,2 +1,6 @@
+- name: Setting up common vars
+  include_role:
+    name: common_set-vars-all
+
 - include_tasks: loop.yml
   with_dict: "{{ bitbucket_create_repo }}"
